@@ -1,32 +1,40 @@
-# React + TypeScript + Vite
+# UniWallet 
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> **Starry Night Student Budget Visualizer** — A streamlined, responsive personal finance dashboard designed specifically for students looking to manage personal expenses, track savings goals, and eliminate financial clutter.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##  Overview
 
-## React Compiler
+Built with **React**, **TypeScript**, and **Tailwind CSS**, **UniWallet** combines real-time data visualization with clean component architecture to give students an effortless overview of their financial health.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Key Features
+*  **Interactive Financial Analytics:** Dynamic pie and bar charts powered by Recharts provide instant feedback on spending habits and compare live expenditure against set monthly category limits.
+*  **Savings Goal Calculator:** Built-in calculator to project timeline milestones based on target savings goals and expected monthly contributions.
+*  **Flexible Transaction Management:** Easily add single expenses via an isolated pop-up modal, import bulk ledger data via CSV, or filter past expenses across categories.
+*  **Secure Authentication:** Integrated with Clerk Authentication for protected login workflows and account management.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+##  Tech Stack
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+* **Frontend:** React 18, TypeScript, Vite
+* **Styling:** Tailwind CSS, Lucide React (Icons)
+* **Data Visualization:** Recharts
+* **CSV Parsing:** PapaParse
+* **Authentication:** Clerk (`@clerk/clerk-react`)
+* **Deployment:** Vercel
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+---
+
+##  Getting Started Locally
+
+### Prerequisites
+Make sure you have Node.js (v18 or higher) installed on your system.
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/shreeya191007/Student-Expense-Tracker.git](https://github.com/shreeya191007/Student-Expense-Tracker.git)
+   cd Student-Expense-Tracker
